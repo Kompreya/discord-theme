@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root, .theme-dark {
+  --background-primary: #1B1F23 !important;
+  --background-secondary: #1B1F23 !important;
+  --background-secondary-alt: #1B1F23 !important;
+  --background-mobile-primary: #1B1F23 !important;
+  --background-mobile-secondary: #1B1F23 !important;
+  --background-tertiary: #161A1E !important;
+  --background-accent: #22262A !important;
+  --background-floating: #1B1F23 !important;
+  --background-modifier-selected: #22262A !important;
+  --background-modifier-hover: #C8F7C1 !important;
+  --activity-card-background: #1B1F23 !important;
+  --interactive-normal: #EEEFF0 !important;
+  --channeltextarea-background: #22262A !important;
+  --rs-online-color: #B4E3AD !important;
+  --rs-idle-color: #ECE3B1 !important;
+  --rs-dnd-color: #E5A3A1 !important;
+  --rs-offline-color: #22262A !important;
+  --rs-streaming-color: #CEACE8 !important;
+  --rs-invisible-color: #A3CBE7 !important;
+  --interactive-muted: #A3CBE7 !important;
+  --header-primary: #EEEFF0 !important;
+  --scrollbar-auto-track: #161A1E;
+  --scrollbar-auto-thumb: #B4E3AD;
+  --scrollbar-thin-thumb: #A3CBE7;
+  --font-primary: Lexend;
+}
+
+[class^=peopleColumn] {
+  background-color: var(--background-primary);
+}
+
+.header-3OsQeK,
+.content-1jQy2l:before,
+.tabBody-2dgbAs:before,
+.searchBar-3TnChZ {
+  box-shadow: none !important;
+}
+
+.botTag-2mryIa, .botTag-1NoD0B {
+  background-color: #CEACE8;
+  color: #1B1F23;
+}
+
+.avatarSpeaking-2pCGrZ,
+.avatarSpeaking-33RRJU {
+  box-shadow: inset 0 0 0 1.35px #B4E3AD, inset 0 0 0 2px var(--background-secondary);
+}
+
+.rtcConnectionStatus-c5A6Av .rtcConnectionStatusConnected-1c73OK,
+.rtcConnectionStatus-c5A6Av .ping-2IpLcU .pingForeground-1BRBTc {
+  color: #B4E3AD;
+}
+
+.live-1V2D-f {
+  background-color: #E5A3A1 !important;
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-color: #CEACE8;
+  color: #EEEFF0;
+}
+
+#bd-pub-button:hover {
+  background-color: #CEACE8;
+  color: #EEEFF0;
+}
+
+button[aria-label*=gift] {
+  display: none;
+}
+
+.selected-g-kMVV.item-3XjbnG {
+  background-color: #22262A;
+}
+
+.item-3XjbnG[aria-label="Add Friend"] {
+  background-color: #CEACE8 !important;
+}
+
+code {
+  color: #EEEFF0;
+}
+
+span.hljs-built_in {
+  color: #CEACE8;
+}
+span.hljs-keyword {
+  color: #ff79c6;
+}
+span.hljs-title {
+  color: #8be9fd;
+}
+span.hljs-attr {
+  color: #EEEFF0;
+}
+span.hljs-string {
+  color: #f1fa8c;
+}
+span.hljs-number {
+  color: #CEACE8;
+}
+span.hljs-symbol {
+  color: #ECE3B1;
+}
+span.hljs-meta {
+  color: #EEEFF0;
+}
+span.hljs-meta-keyword {
+  color: #ff79c6;
+}
+span.hljs-meta-string {
+  color: #ECE3B1;
+}
+
+.mentioned-Tre-dv {
+  background-color: rgba(255, 184, 108, 0.1);
+}
+
+.mentioned-Tre-dv:before {
+  background-color: #ECE3B1;
+}
+
+#app-mount .wrapper-NhbLHG {
+  border-radius: 0;
+}
+#app-mount .wrapper-NhbLHG .content-1gYQeQ {
+  background-color: transparent;
+}
+#app-mount .wrapper-NhbLHG::before {
+  content: "";
+  border-left: solid 2px transparent;
+}
+#app-mount .wrapper-NhbLHG:hover {
+  background: transparent;
+}
+#app-mount .wrapper-NhbLHG:hover .overflow-1wOqNV, #app-mount .wrapper-NhbLHG:hover div > svg {
+  color: #ff79c6;
+}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+#app-mount .modeSelected-3DmyhH .overflow-1wOqNV, #app-mount .modeSelected-3DmyhH div > svg {
+  color: #8be9fd;
+}
+#app-mount .modeSelected-3DmyhH::before {
+  border-left-color: #8be9fd;
+}
+#app-mount .modeUnread-3Cxepe .unread-36eUEm {
+  display: none;
+}
+#app-mount .modeUnread-3Cxepe .overflow-1wOqNV, #app-mount .modeUnread-3Cxepe div > svg {
+  color: #EEEFF0;
+}
+#app-mount .modeUnread-3Cxepe::before {
+  border-left-color: #EEEFF0;
+}
+#app-mount .modeConnected-NrO4cP {
+  background-color: rgba(80, 250, 123, 0.3);
+}
+#app-mount .modeConnected-NrO4cP div > svg {
+  color: #B4E3AD;
+}
+#app-mount .modeConnected-NrO4cP .overflow-1wOqNV {
+  color: #EEEFF0;
+}
+#app-mount .modeConnected-NrO4cP::before {
+  border-left-color: #B4E3AD;
+}
+#app-mount .modeConnected-NrO4cP:hover {
+  background-color: rgba(80, 250, 123, 0.4);
+}
+#app-mount .modeConnected-NrO4cP:hover div > svg {
+  color: #B4E3AD;
+}
+#app-mount .modeConnected-NrO4cP:hover .overflow-1wOqNV {
+  color: #EEEFF0;
+}
+
+.folder-241Joy {
+  background-color: inherit;
+}
+
+.expandedFolderIconWrapper-3RwQpD {
+  background-color: #1B1F23;
+  transition: background-color 0.15s ease-out;
+  -webkit-transition: background-color 0.15s ease-out;
+}
+.expandedFolderIconWrapper-3RwQpD:hover {
+  background-color: #22262A;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background-color: #1B1F23;
+}
+
+.bf-toolbar::before {
+  background: #22262A !important;
+}
+
+.tooltipBlack-vMYxvw {
+  background-color: #161A1E !important;
+}
+.tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
+  border-top-color: #161A1E !important;
+}
+
+/*# sourceMappingURL=main.css.map */
